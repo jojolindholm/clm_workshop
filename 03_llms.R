@@ -37,7 +37,7 @@ anchor_case  <- "B 1064-19"                                     # the case we co
 anchor_label <- cases$publ_num[cases$case_num == anchor_case]   # NJA reference for anchor
 
 api_url   <- "https://openrouter.ai/api/v1/chat/completions"                               # url to llm inference endpoint
-api_key   <- "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"   # authentication key (bad practice!)
+api_key   <- "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"   # authentication key (example, to be replaced)
 api_model <- "openai/gpt-oss-20b"                                                          # llm model name 
 
 
