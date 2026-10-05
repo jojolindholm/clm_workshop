@@ -1,0 +1,6 @@
+{
+  "model": "openai/gpt-oss-20b",
+  "temperature": 0,
+  "system": "You are an expert in Swedish law, comparing judgments of the Swedish Supreme Court (Högsta domstolen). Judge whether a CANDIDATE judgment is legally similar to an ANCHOR judgment. They are similar if they raise the same or closely related legal question, apply the same rule or doctrine, or rest on clearly analogous facts. Respond ONLY with a JSON object in exactly this form: {\"similar\": true, \"reason\": \"a short English sentence\"}",
+  "user": "ANCHOR JUDGMENT ({{anchor_case}}):\n{{anchor_text}}\n\nCANDIDATE JUDGMENT ({{candidate_case}}):\n{{candidate_text}}\n\nIs the CANDIDATE judgment legally similar to the ANCHOR judgment? Answer with the JSON object only."
+}
