@@ -18,16 +18,17 @@ Case similarity comparison is a realistic and common legal task with clear pract
 
 ## Getting Ready: Step-by-Step
 
-If you are reading this, it means that you successfully downloaded and unpacked the workshop zip-file. 
-We will be working with these files so remember where the folder is.  
+Completing these steps will normally not take more than 15--30 mins, but start early in case something goes wrong or you need help:  
 
-1. **Install R.** `R` contains the basic files that allows your computer to run R code. 
+1. Create a local copy of the files on your own computer. The easiest way is to by clicking the green `Code` button and selecting `Download zip`. Then find the zip-file in your download folder and extract the files (note: on Windows it is easy to mistake the zip-file for a folder). We will be working with these files so remember where the folder is.  
+
+2. **Install R.** `R` contains the basic files that allows your computer to run R code. 
 Download and install the version that matches your operating system from [**CRAN**](https://mirror.accum.se/mirror/CRAN/).
 
-2. **Install RStudio.** `RStudio` is an application that makes it easier to explore data, write, test and run R code. 
+3. **Install RStudio.** `RStudio` is an application that makes it easier to explore data, write, test and run R code. 
 Download and install the version that matches your operating system from [**RStudio**](https://docs.posit.co/ide/user/#direct-downloads-open-source).
 
-3. **Install R packages.** *packages* contain functions that are not in the base-version of `R` and that we need to conduct the analysis. 
+4. **Install R packages.** *packages* contain functions that are not in the base-version of `R` and that we need to conduct the analysis. 
 Launch `RStudio`, for example by opening the file `clm_intro.Rproj` in the folder. 
 Then run the code below in Console (the left pane) to install all the neccessary packages (it will take a few minutes):
 
@@ -35,7 +36,7 @@ Then run the code below in Console (the left pane) to install all the neccessary
 install.packages(c("tidyverse", "tidytext", "Matrix", "SnowballC", "doc2vec", "igraph", "jsonlite", "glue"))
 ```
 
-4. **Launch the RProj-file.** In your file manager, find and double-click `clm_intro.Rproj`. This should open the project in RStudio. One way to know that it works is that you'll see the folder content in the Files tab in the bottom-right corner of RStudio
+5. **Launch the RProj-file.** In your file manager, find and double-click `clm_intro.Rproj`. This should open the project in RStudio. One way to know that it works is that you'll see the folder content in the Files tab in the bottom-right corner of RStudio
 
 *That's it, you are ready!*
 
