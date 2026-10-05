@@ -54,9 +54,9 @@ The folder that you downloaded contains everything you need for the workshop, in
 | `clm_intro.Rproj` | R-project | used to manage and organize project-related resources in RStudio |
 | `opinions.csv` | data | table with one row per opinion containing opinion-level matedata |
 | `promp_eval.json` | instructions | strcutured json file for the llm prompt | 
-| `README.md` | doc | this document as markdown |
-| `README.pdf` | doc | this document as pdf |
+| `README.md` | doc | this document |
 | `text.csv` | data | table with one row per paragraph containing judgment text | 
+| `\slides` | doc | my presentation slides |
 
 ## Having Trouble?
 
